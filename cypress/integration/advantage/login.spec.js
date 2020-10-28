@@ -4,5 +4,8 @@ describe('Get to the login screen from main page', () => {
         cy.contains('ISS-Schrole Advantage')
         cy.get('.btn-main').click()
         cy.get('div.validation-summary-errors > ul').children().should('have.length', 2)
+        cy.get('input[name="Email"]').type(Cypress.env('USERNAME'))
+        cy.get('.btn-main').click()
+        cy.get('div.validation-summary-errors > ul').children().should('have.length', 1)
     })
   })
