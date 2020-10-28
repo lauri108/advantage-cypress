@@ -1,0 +1,27 @@
+{
+  "name": "advantage-cypress",
+  "version": "1.0.0",
+  "description": "cypress.io UAT for Schrole Advantage",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^5.5.0",
+    "cypress-dotenv": "^1.2.2",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauri108/advantage-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauri108/advantage-cypress/issues"
+  },
+  "homepage": "https://github.com/lauri108/advantage-cypress#readme"
+}
